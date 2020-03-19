@@ -1,2 +1,2 @@
-# Computer-Vision
-Resources and Projects for Image Processing
+This repository contains notebooks for Udacity's Nanodegree on Deep Learning for Computer Vision
+
