@@ -13,6 +13,13 @@ Each of these three sections will have an associated project that allows you to 
 
 <img src="Visual Representations/Computer_Vision_Projects.png" align="center"/></p>
 
+You’ll learn computer vision and deep learning techniques by getting to apply your skills to a variety of projects.
+The three project in this course are as follows:
+
+* Facial Keypoint Detection
+* Automatic Image Captioning
+* Simultaneous Localization and Mapping (SLAM).
+
 # Additional Materials
 
 Stanford University CS231n: Convolutional Neural Networks for Visual Recognition
