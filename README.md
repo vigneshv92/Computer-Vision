@@ -11,6 +11,8 @@ Each of these three sections will have an associated project that allows you to 
 
 # Projects
 
+<img src="Visual Representations/Computer_Vision_Projects.png" align="center"/></p>
+
 # Additional Materials
 
 Stanford University CS231n: Convolutional Neural Networks for Visual Recognition
