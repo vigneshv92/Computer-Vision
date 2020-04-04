@@ -9,6 +9,8 @@ This course is broken into three main sections:
 
 Each of these three sections will have an associated project that allows you to demonstrate the skills you've learned in each part.
 
+# Projects
+
 # Additional Materials
 
 Stanford University CS231n: Convolutional Neural Networks for Visual Recognition
