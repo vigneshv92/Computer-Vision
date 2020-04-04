@@ -30,7 +30,6 @@ amzn/computer-vision-basics-in-microsoft-excel: Computer Vision Basics in Micros
 
 microsoft/computervision-recipes: Best Practices, code samples, and documentation for Computer Vision.
 
-
 spmallick/learnopencv: Learn OpenCV : C++ and Python Examples
 
 ### Introduction to Computer Vision (Udacity)
