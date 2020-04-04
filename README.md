@@ -1,7 +1,15 @@
-# Computer Vision
+# Computer Vision Course Overview
+This course is broken into three main sections:
 
+* Intro to Computer Vision, which covers topics like image processing, feature extraction done manually or through training a convolutional neural network (CNN) using PyTorch.
 
-## Courses
+* Advanced Computer Vision and Deep Learning, which is all about advances in deep learning architectures like region-based CNN's, YOLO and single-shot detection algorithms, and CNN's used in combination with recurrent neural networks.
+
+* Object Tracking and Localization, which covers how a robot can move and sense the world around it, creating a visual representation of the world as it navigates.
+
+Each of these three sections will have an associated project that allows you to demonstrate the skills you've learned in each part.
+
+# Additional Materials
 
 Stanford University CS231n: Convolutional Neural Networks for Visual Recognition
 
