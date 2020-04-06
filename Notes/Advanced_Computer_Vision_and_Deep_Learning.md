@@ -72,6 +72,15 @@ The regions we want to analyze are those with complete objects in them. We want 
 
 ## 7. R-CNN
 
+To localize and classify multiple objects in an image, we want to be able to identify a limited set of cropped regions for a CNN to look at. In the ideal case, we would generate three perfectly cropped regions for three different objects in an image.
+To approach this goal and generate a good limited set of cropped regions, the idea of region proposals was introduced.
+Region proposals give us a way to quickly look at an image and generate regions only for areas in which we think there may be an object. We can use traditional computer vision techniques that detect things like edges and textured bobs to produce a set of regions in which objects are most likely to be found; areas of similar texture or the same unifying boundary, 
+for example. 
+
+These proposals often produce noisy non-object regions, but they are also very likely to include the regions in which objects are located. So the noise is considered a worthwhile cost for not missing any objects. So let's see how this looks when incorporated into a CNN architecture. We can use a region proposal algorithm to produce a limited set of cropped regions. Often called regions of interests or ROIs. And then we put these regions through a classification CNN, one at a time and see what kind of class label the network predicts for each crop.
+
+This model is called an R-CNN, Which stands for region convolutional neural network. The R-CNN produces a class for each region of interest, and so it can identify the region that is a dog and the region that is a cat in an image.In this case we also include a class called background, that's meant to capture any noisy regions. Since these regions are often different sizes they first need to be transformed and warped into a standard size that a CNN can accept as input. Now, the main shortcoming of this method is that it still time intensive because it requires that each cropped region go through an entire CNN before a class label can be produced. Next, we'll see some examples of region-based CNNs that aim to speed up this process and efficiently classify multiple objects in an image.
+
 ##### R-CNN Outputs </br>
 The R-CNN is the least sophisticated region-based architecture, but it is the basis for understanding how multiple object recognition algorithms work! It outputs a class score and bounding box coordinates for every input RoI.
 
