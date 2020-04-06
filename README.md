@@ -20,4 +20,4 @@ The three project in this course are as follows:
 * Automatic Image Captioning
 * Simultaneous Localization and Mapping (SLAM).
 
-# [Additional Materials](/Additional_References.md)
+# [Additional Resources](/Additional_Resources.md)
