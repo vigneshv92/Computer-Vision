@@ -117,3 +117,5 @@ An example of pooling sections, below.
 You can see the complete process from input image to region to reduced, maxpooled region, below.
 
 <img src="/Visual Representations/roi-pooling.gif" align="center"/></p>
+
+### Faster R-CNN's
