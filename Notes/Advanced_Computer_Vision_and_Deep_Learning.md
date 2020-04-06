@@ -6,7 +6,7 @@
 
 ### 3. Classification and Localization
 
-### 4. Beyond Bounding Boxes </br>
+### 4. Beyond Bounding Boxes & Regression </br>
 To predict bounding boxes, we train a model to take an image as input and output coordinate values: (x, y, w, h). This kind of model can be extended to any problem that has coordinate values as outputs! One such example is human pose estimation.
 
 <img src="/Visual Representations/human_pose_estimation.png" align="center"/></p>
