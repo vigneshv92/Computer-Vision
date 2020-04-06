@@ -5,6 +5,7 @@
 ## Beyond Bounding Boxes</br>
 To predict bounding boxes, we train a model to take an image as input and output coordinate values: (x, y, w, h). This kind of model can be extended to any problem that has coordinate values as outputs! One such example is human pose estimation.
 
+<img src="Visual Representations/human_pose_estimation.png" align="center"/></p>
 In the above example, we see that the pose of a human body can be estimated by tracking 14 points along the joints of a body.
 Weighted Loss Functions
 You may be wondering: how can we train a network with two different outputs (a class and a bounding box) and different losses for those outputs?
