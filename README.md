@@ -1,7 +1,7 @@
 # Computer Vision Course Overview
 This course is broken into three main sections:
 
-* Intro to Computer Vision, which covers topics like image processing, feature extraction done manually or through training a convolutional neural network (CNN) using PyTorch.
+* [Intro to Computer Vision](Notes/Intro_to_Computer_Vision.md), which covers topics like image processing, feature extraction done manually or through training a convolutional neural network (CNN) using PyTorch.
 
 * Advanced Computer Vision and Deep Learning, which is all about advances in deep learning architectures like region-based CNN's, YOLO and single-shot detection algorithms, and CNN's used in combination with recurrent neural networks.
 
