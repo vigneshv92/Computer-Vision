@@ -112,7 +112,7 @@ Will become a single max value after pooling: 0.85. After applying this to an im
 
 An example of pooling sections, below.
 
-<img src="/Visual Representations/Fast_RCNN_RoI.png" align="center"/></p>
+<img src="/Visual Representations/Fast_RCNN_RoI.png" align="center" width="700" height="700"/></p>
 
 You can see the complete process from input image to region to reduced, maxpooled region, below.
 
