@@ -8,7 +8,8 @@ To predict bounding boxes, we train a model to take an image as input and output
 <img src="/Visual Representations/human_pose_estimation.png" align="center"/></p>
 
 In the above example, we see that the pose of a human body can be estimated by tracking 14 points along the joints of a body.
-Weighted Loss Functions
+
+#### Weighted Loss Functions</br>
 You may be wondering: how can we train a network with two different outputs (a class and a bounding box) and different losses for those outputs?
 
 We know that, in this case, we use categorical cross entropy to calculate the loss for our predicted and true classes, and we use a regression loss (something like smooth L1 loss) to compare predicted and true bounding boxes. But, we have to train our whole network using one loss, so how can we combine these?
