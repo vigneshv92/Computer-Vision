@@ -25,10 +25,13 @@ There are a couple of ways to train on multiple loss functions, and in practice,
 ### 6. Region Proposals </br>
 
 Now you've seen how to locate one object in an image by generating a bounding box around that object.
+
 > But what if there are multiple objects in an image?
 > How can you train a network to detect all of them?
 
 </br> Well, let's think about the case where we just have two objects in an image.
+
+<img src="/Visual Representations/region_proposals.png" align="center"/></p>
 
 > How can we localize and label both of these? </br>
 One approach could be to try to simplify this input image and split it into two different regions, 
