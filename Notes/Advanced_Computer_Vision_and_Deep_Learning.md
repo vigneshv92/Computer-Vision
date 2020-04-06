@@ -42,9 +42,6 @@ Then you might think, what about if there are three objects in an image or four 
 The real challenge here is that there's a variable output. You don't know ahead of time how many objects are going to be in a given image and CNNs and most neural networks have a defined unchanging output size. So, to detect a variable amount of 
 objects in any image, you first must break that image up into smaller regions and produce bounding boxes and class labels for 
 one region and one object at a time.
-We'll learn about techniques for finding these regions shortly.
-Then, you should be able to locate and classify any objects that appear in an original image,
-whether that's one object or three or 20. 
 
 > So how can we go about breaking up an image into regions? </br>
 We know that we want these regions to correspond to different objects in the image and we don't want to miss any objects.
@@ -56,7 +53,10 @@ perform classification. However, this approach produces a huge amount of cropped
 Also, in this case, most of the cropped images don't even contain objects. 
 
 > So how can you better choose these cropped regions, especially when objects vary in size and location? </br>
-
 Next, I want you to think about how you might improve this region selection process.
 You want to make sure not to miss any objects but you also don't
 want to put a huge number of cropped regions through a CNN.
+
+We'll learn about techniques for finding these regions shortly.
+Then, you should be able to locate and classify any objects that appear in an original image,
+whether that's one object or three or 20. 
