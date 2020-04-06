@@ -1,8 +1,8 @@
-Table of Contents
+# Table of Contents
 
-1. CNN's and Scene Understanding
+## CNN's and Scene Understanding
 
-2. Beyond Bounding Boxes</br>
+## Beyond Bounding Boxes</br>
 To predict bounding boxes, we train a model to take an image as input and output coordinate values: (x, y, w, h). This kind of model can be extended to any problem that has coordinate values as outputs! One such example is human pose estimation.
 
 In the above example, we see that the pose of a human body can be estimated by tracking 14 points along the joints of a body.
