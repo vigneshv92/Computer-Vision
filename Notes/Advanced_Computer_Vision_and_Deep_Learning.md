@@ -89,7 +89,7 @@ An R-CNN feeds an image into a CNN with regions of interest (RoI’s) already id
 R-CNN produces bounding box coordinates to reduce localization errors; so a region comes in, but it may not perfectly surround a given object and the output coordinates (x,y,w,h) aim to perfectly localize an object in a given region.
 R-CNN, unlike other models, does not explicitly produce a confidence score that indicates whether an object is in a region, instead it cleverly produces a set of class scores for which one class is "background". This ends up serving a similar purpose, for example, if the class score for a region is Pbackground = 0.10, it likely contains an object, but if it's Pbackground = 0.90, then the region probably doesn't contain an object.
 
-### Fast R-CNN
+### 8. Fast R-CNN
 
 The next advancement in region-based CNNs came with the Fast R-CNN architecture. Instead of processing each region of interest individually through a classification CNN, this architecture runs the entire image through a classification CNN only once.
 The image goes through a series of convolutional and pooling layers and at the end of these layers, we get a stack of feature maps. We still need to identify regions of interest but instead of cropping the original image, we project these proposals into the smaller feature map layer. Each region in the feature map corresponds to a larger region in the original image. So we can grab selected regions in this feature map and feed them one by one into a fully connected layer that generates a class for each of these different regions.
