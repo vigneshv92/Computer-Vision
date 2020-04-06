@@ -96,3 +96,13 @@ The image goes through a series of convolutional and pooling layers and at the e
 
 In this model we complete the most time-consuming steps, processing an image through a series of convolutional layers only once and then selectively use that map to get our desired outputs. Again, we have to handle the variable sizes and these protections,
 since layers further in the network are expecting input of a fixed size. So, we do something called ROI pooling to warp these regions into a consistent size before giving them to a fully connected layer. Now this network is faster than R-CNN but it's still slow when faced with a test image for which it has to generate region proposals and it's still looking at regions that do not contain objects at all. The next architecture we'll look at aims to improve this region generation step.
+
+##### RoI Pooling </br>
+To warp regions of interest into a consistent size for further analysis, some networks use RoI pooling. RoI pooling is an additional layer in our network that takes in a rectangular region of any size, performs a maxpooling operation on that region in pieces such that the output is a fixed shape. Below is an example of a region with some pixel values being broken up into pieces which pooling will be applied to; a section with the values:
+
+```python
+[[0.85, 0.34, 0.76],
+ [0.32, 0.74, 0.21]]
+ ```
+ 
+Will become a single max value after pooling: 0.85. After applying this to an image in these pieces, you can see how any rectangular region can be forced into a smaller, square representation.
