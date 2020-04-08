@@ -118,4 +118,16 @@ You can see the complete process from input image to region to reduced, maxpoole
 
 <img src="/Visual Representations/roi-pooling.gif" align="center"/></p>
 
-### Faster R-CNN's
+### 9. Faster R-CNN
+
+To speed up the time it takes to run a test image through a network and detect all the objects in it, we want to decrease the time it takes to form region proposals.
+
+For this we have the faster R-CNN architecture.</br>
+* Faster R-CNN learns to come up with its own region proposals.
+* It takes in an input image, runs it through a CNN up until a certain convolutional layer just like Fast R-CNN, but this time it uses the produced feature map as input into a separate region proposal network. So it predicts its own regions from the features produced inside the network.
+* If an area in the feature map is rich in detected edges or other features, it's identified as a region of interest. 
+* Then this part of a network does a quick binary classification. 
+* For each ROI it checks whether or not that region contains an object. If it does then the region will continue on and go through the classification steps and if it doesn't, then the proposal is discarded.
+* Once we have the final region proposals, the rest of the network looks the same as Fast R-CNN. It takes cropped regions from the feature map and learns to classify those regions.
+
+By eliminating the analysis of non-object regions, this model is the fastest of all the region-based CNNs that we've seen.
