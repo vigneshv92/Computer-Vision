@@ -133,17 +133,14 @@ For this we have the faster R-CNN architecture.</br>
 By eliminating the analysis of non-object regions, this model is the fastest of all the region-based CNNs that we've seen.
 
 ###### Region Proposal Network
-You may be wondering: 
-
-> how exactly are the RoI's generated in the region proposal portion of the Faster R-CNN architecture? </br>
+You may be wondering, how exactly are the RoI's generated in the region proposal portion of the Faster R-CNN architecture? </br>
 > The region proposal network (RPN) works in Faster R-CNN in a way that is similar to YOLO object detection, which you'll learn
 > about in the next lesson. The RPN looks at the output of the last convolutional layer, a produced feature map, and takes a 
 > sliding window approach to possible-object detection. It slides a small (typically 3x3) window over the feature map,
-> then for each window the RPN:
-* Uses a set of defined anchor boxes, which are boxes of a defined aspect ratio (wide and short or tall and thin, for example) to generate multiple possible RoI's, each of these is considered a region proposal.
+> then for each window the RPN Uses a set of defined anchor boxes, which are boxes of a defined aspect ratio (wide and short or tall and thin, for example) to generate multiple possible RoI's, each of these is considered a region proposal.
 > For each proposal, this network produces a probability, Pc, that classifies the region as an object (or not) and a set of bounding box coordinates for that object.
 > Regions with too low a probability of being an object, say Pc < 0.5, are discarded.
 
 ###### Training the Region Proposal Network
-> Since, in this case, there are no ground truth regions, how do you train the region proposal network?</br>
-The idea is, for any region, you can check to see if it overlaps with any of the ground truth objects. That is, for a region, if we classify that region as an object or not-object, which class will it fall into? For a region proposal that does cover some portion of an object, we should say that there is a high probability that this region has an object init and that region should be kept; if the likelihood of an object being in a region is too low, that region should be discarded.
+Since, in this case, there are no ground truth regions, how do you train the region proposal network?</br>
+> The idea is, for any region, you can check to see if it overlaps with any of the ground truth objects. That is, for a region, if we classify that region as an object or not-object, which class will it fall into? For a region proposal that does cover some portion of an object, we should say that there is a high probability that this region has an object init and that region should be kept; if the likelihood of an object being in a region is too low, that region should be discarded.
