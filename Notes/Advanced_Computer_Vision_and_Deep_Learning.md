@@ -144,3 +144,9 @@ You may be wondering, how exactly are the RoI's generated in the region proposal
 ###### Training the Region Proposal Network
 Since, in this case, there are no ground truth regions, how do you train the region proposal network?</br>
 > The idea is, for any region, you can check to see if it overlaps with any of the ground truth objects. That is, for a region, if we classify that region as an object or not-object, which class will it fall into? For a region proposal that does cover some portion of an object, we should say that there is a high probability that this region has an object init and that region should be kept; if the likelihood of an object being in a region is too low, that region should be discarded.
+
+I'd recommend this [blog post](https://towardsdatascience.com/deep-learning-for-object-detection-a-comprehensive-review-73930816d8d9) if you'd like to learn more about region selection.
+
+###### Speed Bottleneck</br>
+
+Now, for all of these networks including Faster R-CNN, we've aimed to improve the speed of our object detection models by reducing the time it takes to generate and decide on region proposals. You might be wondering: is there a way to get rid of this proposal step entirely? And in the next section we'll see a method that does not rely on region proposals to work!
