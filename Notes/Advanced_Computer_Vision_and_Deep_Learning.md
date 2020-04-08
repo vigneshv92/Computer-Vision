@@ -152,3 +152,12 @@ Now, for all of these networks including Faster R-CNN, we've aimed to improve th
 
 If you'd like to look at an implementation of this network in code, you can find a peer-reviewed version, at this 
 [Github repo](https://github.com/jwyang/faster-rcnn.pytorch).
+
+### 10. Conclusion
+
+You've really learned a lot about the evolution of CNN architectures in this lesson, especially about how to detect multiple objects in an image using region proposals.
+
+As we mentioned at the start, simple image classification problems are really the most basic application for CNNs. And if we're aiming to reach levels of human understanding, we have to add complexity to these networks so that they're able to recognize multiple objects and their relations to one another. You may also be wondering if there's a way to perform object recognition without region proposals like this, and there is. There's a whole other family of object detection networks that don't use region proposals. 
+
+> One of these is YOLO, which stands for you only look once, and another is SSD, or single shot detection.
+These both came out around the same time, and in the next lesson you'll learn all about YOLO and get a chance to work with a code implementation of a YOLO Detection Network.
