@@ -24,27 +24,25 @@ There are a couple of ways to train on multiple loss functions, and in practice,
 
 ### 6. Region Proposals </br>
 
-Now you've seen how to locate one object in an image by generating a bounding box around that object.
-
-> But what if there are multiple objects in an image?
-> How can you train a network to detect all of them?
+Now you've seen how to locate one object in an image by generating a bounding box around that object.</br>
+But what if there are multiple objects in an image? How can you train a network to detect all of them?
 
 </br> Well, let's think about the case where we just have two objects in an image.
 
 <img src="/Visual Representations/region_proposals.png" align="center"/></p>
 
-> How can we localize and label both of these? </br>
-One approach could be to try to simplify this input image and split it into two different regions, 
+</br>How can we localize and label both of these? </br>
+> One approach could be to try to simplify this input image and split it into two different regions, 
 each of which only contains one object. Then we can proceed in the same way as before,
 putting each region through a CNN that generates one class label and one bounding box.
 
-Then you might think, what about if there are three objects in an image or four or more?
-The real challenge here is that there's a variable output. You don't know ahead of time how many objects are going to be in a given image and CNNs and most neural networks have a defined unchanging output size. So, to detect a variable amount of 
+</br> Then you might think, what about if there are three objects in an image or four or more?
+> The real challenge here is that there's a variable output. You don't know ahead of time how many objects are going to be in a given image and CNNs and most neural networks have a defined unchanging output size. So, to detect a variable amount of 
 objects in any image, you first must break that image up into smaller regions and produce bounding boxes and class labels for 
 one region and one object at a time.
 
-> So how can we go about breaking up an image into regions? </br>
-We know that we want these regions to correspond to different objects in the image and we don't want to miss any objects.
+</br> So how can we go about breaking up an image into regions? </br>
+> We know that we want these regions to correspond to different objects in the image and we don't want to miss any objects.
 We could just make a bunch of cropped regions to make sure we don't miss anything.
 This would mean defining a small sliding window and passing it over the entire image using some value for stride
 to create mini different crops of the original input image. Then for each cropped region, we can put it through a CNN and 
@@ -52,8 +50,8 @@ perform classification. However, this approach produces a huge amount of cropped
 
 Also, in this case, most of the cropped images don't even contain objects. 
 
-> So how can you better choose these cropped regions, especially when objects vary in size and location? </br>
-Next, I want you to think about how you might improve this region selection process.
+</br> So how can you better choose these cropped regions, especially when objects vary in size and location? </br>
+> Next, I want you to think about how you might improve this region selection process.
 You want to make sure not to miss any objects but you also don't
 want to put a huge number of cropped regions through a CNN.
 
@@ -62,11 +60,11 @@ Then, you should be able to locate and classify any objects that appear in an or
 whether that's one object or three or 20. 
 
 ###### Reflect
-> Considering the above image, how do you think you would select the best proposed regions, what criteria do good regions have? </br>
+Considering the above image, how do you think you would select the best proposed regions, what criteria do good regions have? </br>
 > Your reflection </br>
 By Increasing the sliding window size to reduce the number of cropped regions.
 
-> Solution </br>
+</br> Solution </br>
 > Things to think about </br>
 The regions we want to analyze are those with complete objects in them. We want to get rid of regions that contain image background or only a portion of an object. So, two common approaches are suggested: 1. identify similar regions using feature extraction or a clustering algorithm like k-means, as you've already seen; these methods should identify any areas of interest. 2. Add another layer to our model that performs a binary classification on these regions and labels them: object or not-object; this gives us the ability to discard any non-object regions!
 
