@@ -149,5 +149,5 @@ I'd recommend this [blog post](https://towardsdatascience.com/deep-learning-for-
 
 Now, for all of these networks including Faster R-CNN, we've aimed to improve the speed of our object detection models by reducing the time it takes to generate and decide on region proposals. You might be wondering: is there a way to get rid of this proposal step entirely? And in the next section we'll see a method that does not rely on region proposals to work!
 
-If you'd like to look at an implementation of this network in code, you can find a peer-reviewed version, at this [Github repo]
-(https://github.com/jwyang/faster-rcnn.pytorch).
+If you'd like to look at an implementation of this network in code, you can find a peer-reviewed version, at this 
+[Github repo](https://github.com/jwyang/faster-rcnn.pytorch).
