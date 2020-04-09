@@ -80,7 +80,7 @@ Likewise, if we follow the section of the image that corresponds to the third wi
 
 Finally, if we follow the section of the image that corresponds to the fourth window through this new CNN, we see the corresponding result in the last layer, as shown in the image below:
 
-<img src="Visual Representations/CNN_Sliding_Window_8.png" align="center"/></p>
+<img src="/Visual Representations/CNN_Sliding_Window_8.png" align="center"/></p>
 
 In fact, if we follow all the windows through the CNN we see that all the 16 windows are contained within the last layer of this new CNN. Therefore, passing the 16 windows individually through the old CNN is exactly the same as passing the whole image only once through this new CNN.
 
