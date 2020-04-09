@@ -48,7 +48,7 @@ Then you'll see how yellow improves upon sliding windows and breaks an image int
 
 Let’s assume we have a 16 x 16 x 3 image, like the one shown below. This means the image has a size of 16 by 16 pixels and has 3 channels, corresponding to RGB.
 
-<img src="Visual Representations/CNN_Sliding_Window_0.png" align="center"/></p>
+<img src="/Visual Representations/CNN_Sliding_Window_0.png" align="center"/></p>
 
 Let’s now select a window size of 10 x 10 pixels as shown below:
 
