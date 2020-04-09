@@ -56,7 +56,7 @@ Let’s now select a window size of 10 x 10 pixels as shown below:
 
 If we use a stride of 2 pixels, it will take 16 windows to cover the entire image, as we can see below.
 
-<img src="Visual Representations/CNN_Sliding_Window_2.png" align="center"/></p>
+<img src="/Visual Representations/CNN_Sliding_Window_2.png" align="center"/></p>
 
 In the original Sliding Windows approach, each of these 16 windows will have to be passed individually through a CNN. Let’s assume that CNN has the following architecture:
 
