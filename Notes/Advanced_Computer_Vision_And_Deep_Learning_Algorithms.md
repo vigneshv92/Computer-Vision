@@ -52,7 +52,7 @@ Let’s assume we have a 16 x 16 x 3 image, like the one shown below. This means
 
 Let’s now select a window size of 10 x 10 pixels as shown below:
 
-<img src="Visual Representations/CNN_Sliding_Window_1.png" align="center"/></p>
+<img src="/Visual Representations/CNN_Sliding_Window_1.png" align="center"/></p>
 
 If we use a stride of 2 pixels, it will take 16 windows to cover the entire image, as we can see below.
 
