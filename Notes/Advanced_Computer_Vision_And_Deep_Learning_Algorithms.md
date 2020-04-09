@@ -84,7 +84,7 @@ Finally, if we follow the section of the image that corresponds to the fourth wi
 
 In fact, if we follow all the windows through the CNN we see that all the 16 windows are contained within the last layer of this new CNN. Therefore, passing the 16 windows individually through the old CNN is exactly the same as passing the whole image only once through this new CNN.
 
-<img src="Visual Representations/CNN_Sliding_Window_9.png" align="center"/></p>
+<img src="/Visual Representations/CNN_Sliding_Window_9.png" align="center"/></p>
 
 This is how you can apply sliding windows with a CNN. This technique makes the whole process much more efficient. However, this technique has a downside: the position of the bounding boxes is not going to be very accurate. The reason is that it is quite unlikely that a given size window and stride will be able to match the objects in the images perfectly. In order to increase the accuracy of the bounding boxes, YOLO uses a grid instead of sliding windows, in addition to two other techniques, known as Intersection Over Union and Non-Maximal Suppression.
 
