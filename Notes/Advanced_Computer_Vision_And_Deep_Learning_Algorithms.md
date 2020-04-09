@@ -60,7 +60,7 @@ If we use a stride of 2 pixels, it will take 16 windows to cover the entire imag
 
 In the original Sliding Windows approach, each of these 16 windows will have to be passed individually through a CNN. Let’s assume that CNN has the following architecture:
 
-<img src="Visual Representations/CNN_Sliding_Window_4.png" align="center"/></p>
+<img src="/Visual Representations/CNN_Sliding_Window_4.png" align="center"/></p>
 
 The CNN takes as input a 10 x 10 x 3 image, then it applies 5, 7 x 7 x 3 filters, then it uses a 2 x 2 Max pooling layer, then is has 128, 2 x 2 x 5 filters, then is has 128, 1 x 1 x 128 filters, and finally it has 8, 1 x 1 x 128 filters that represents a softmax output.
 
