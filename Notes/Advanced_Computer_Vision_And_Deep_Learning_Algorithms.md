@@ -76,7 +76,7 @@ If we follow the region of the image that corresponds to the first window throug
 
 Likewise, if we follow the section of the image that corresponds to the third window through this new CNN, we see the corresponding result in the last layer, as shown in the image below:
 
-<img src="Visual Representations/CNN_Sliding_Window_7.png" align="center"/></p>
+<img src="/Visual Representations/CNN_Sliding_Window_7.png" align="center"/></p>
 
 Finally, if we follow the section of the image that corresponds to the fourth window through this new CNN, we see the corresponding result in the last layer, as shown in the image below:
 
