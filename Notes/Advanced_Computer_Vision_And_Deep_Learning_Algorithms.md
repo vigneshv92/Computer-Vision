@@ -66,7 +66,7 @@ The CNN takes as input a 10 x 10 x 3 image, then it applies 5, 7 x 7 x 3 filters
 
 What will happen if we change the input of the above CNN from 10 x 10 x 3, to 16 x 16 x 3? The result is shown below:
 
-<img src="Visual Representations/CNN_Sliding_Window_5.png" align="center"/></p>
+<img src="/Visual Representations/CNN_Sliding_Window_5.png" align="center"/></p>
 
 As we can see, this CNN architecture is the same as the one shown before except that it takes as input a 16 x 16 x 3 image. The sizes of each layer change because the input image is larger, but the same filters as before have been applied.
 
