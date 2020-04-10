@@ -15,3 +15,9 @@ We'll start off by talking about representing motion and tracking objects in a v
 By the end of this lesson, you'll have all the skills you need to code an implementation of SLAM, which stands for Simultaneous Localization and Mapping. Slam is a technique that allows autonomous vehicles to build up a model of the world while locating itself within that world. So, let's get started.
 
 ### 3. [Motion](https://youtu.be/A-QJf04LBb0)
+
+So far we've been looking at a lot of static images and processing them to identify objects and interesting features, and the exact same processing techniques can be used on a video stream. This is because a video stream is just made up of a sequence of image frames. 
+
+One thing we haven't talked about that's unique to these sequences of image frames is the idea of motion. For example, when you're watching a video you can see or envision an object move and to create an intelligent computer vision system, we also want to give computers a way to understand motion.
+
+This is useful in a number of applications. Knowledge about motion is used to isolate moving pedestrians from a still background. It's used in intelligent navigation systems, in movement prediction models, and in distinguishing behaviors like running versus walking in a given video. One way to track objects over time and detect motion is by extracting certain features and observing how they change from one frame to the next. Next we'll learn about one such method called optical flow.
