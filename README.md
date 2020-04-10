@@ -11,7 +11,10 @@ This course is broken into three main sections:
 
 This lesson is all about advances in deep learning architectures like region-based CNN's, YOLO and single-shot detection algorithms, and CNN's used in combination with recurrent neural networks.
 
-## 3. [Object Tracking and Localization]()</br>
+## 3. Object Tracking and Localization </br>
+  * [Introduction to Motion](Notes/Introduction_to_Motion.md)
+  * [Object Tracking](Notes/Object_Tracking.md)
+
 This lesson covers how a robot can move and sense the world around it, creating a visual representation of the world as it navigates.
 
 Each of these three sections will have an associated project that allows you to demonstrate the skills you've learned in each part.
