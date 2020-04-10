@@ -26,7 +26,9 @@ This is useful in a number of applications. Knowledge about motion is used to is
 
 Optical flow is used in many tracking and motion analysis applications. 
 
-> * It works by assuming two things about image frames. One, that the pixel intensities of an object do not change between consecutive frames and two, that neighboring pixels have similar motion.
-  * It then looks at interesting points, say, corners or particularly bright pixels, and tracks them from one frame to the next. Tracking a point or a set of points provides information about how fast that point or object is moving and in what direction. 
+> * It works by assuming two things about image frames. One, that the pixel intensities of an object do not change between 
+> consecutive frames and two, that neighboring pixels have similar motion.
+> * It then looks at interesting points, say, corners or particularly bright pixels, and tracks them from one frame to the next
+> Tracking a point or a set of points provides information about how fast that point or object is moving and in what direction. 
 
 This data also allows you to predict where an object will move next. So you can use optical flow to do things like hand gesture recognition or to track a certain object like a person or vehicle, and it's so much more powerful too. Motion recognition can be used to distinguish between behaviors like running versus walking, and in safety applications by predicting the motion of things and performing obstacle avoidance like in the case of self-driving cars. It's even used in eye tracking for virtual reality games and advertising. So, in many applications, tracking and motion can add some very valuable information.
