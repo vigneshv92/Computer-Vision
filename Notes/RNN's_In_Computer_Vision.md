@@ -20,7 +20,7 @@ Next, you'll learn all about how RNN's are structured and how they can be traine
 ##### Supporting Materials
 [Video classification methods](https://video.udacity-data.com/topher/2018/May/5af0e03b_video-classification/video-classification.pdf)
 
-### 2. RNN's Introduction
+### 2. [RNN's Introduction](https://youtu.be/AIQEqg6F38A)
 
 The neural network architectures you've seen so far were trained using the current inputs only. We did not consider previous inputs when generating the current output. In other words, our systems did not have any memory elements. RNNs address this very basic and important issue by using memory (i.e. past inputs to the network) when producing the current output.
 
