@@ -9,10 +9,11 @@ At the end of this lesson, you will be tasked with creating an automatic image c
 RNN's are also sometimes used to analyze sequences of images; this can be useful in captioning video, as well as video classification, gesture recognition, and object tracking; all of these tasks see as input a sequence of image frames.
 
 ### Sketch RNN
-One of my favorite use cases for RNN's in computer vision tasks is in generating drawings. 
+One of my favorite use cases for RNN's in computer vision tasks is in generating drawings.</br>
 [Sketch RNN (demo here)](https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html) is a program that learns to complete a drawing, once you give it something (a line or circle, etc.) to start!
 
 Sketch RNN example output. Left, Mona Lisa. Right, pineapple.
+
 It's interesting to think of drawing as a sequential act, but it is! This network takes a starting line or squiggle and then, having trained on a number of types of sketches, does it's best to complete the drawing based on your input squiggle.
 Next, you'll learn all about how RNN's are structured and how they can be trained! This section is taught by Ortal, who has a PhD in Computer Engineering and has been a professor and researcher in the fields of applied cryptography and embedded systems.
 
