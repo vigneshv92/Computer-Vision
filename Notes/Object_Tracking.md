@@ -12,8 +12,8 @@ Before learning more about uncertainty in robot localization, let's review how t
 ##### Formal Definition of Probability
 The probability of an event, X, occurring is P(X). The value of P(X) must fall in a range of 0 to 1.
 
-* 0 <= P(X) <= 1
-An event, X, can have multiple outcomes which we might call X1, X2, .. and so on; the probabilities for all outcomes of X must add up to one. For example, say there are two possible outcomes, X1 and X2:
+* 0 <= P(X) <= 1</br>
+An event, X, can have multiple outcomes which we might call X1, X2, .. and so on; the probabilities for all outcomes of X must add up to one. For example, say there are two possible outcomes, X1 and X2:</br>
 
 If ```P(X1) = 0.2``` then P(X2) = 0.8 because all possible outcomes must sum to 1.</br>
 
