@@ -41,4 +41,4 @@ It's really interesting to see how this field has evolved. We will remind oursel
 
 While focusing on feedforward networks, you will learn about, non-linear function approximation, training using backpropagation, or what we call stochastic gradient descent, and evaluation. All these should be familiar to you. Our main focus of course will be RNNs. I have given you a good example of why we need RNNs. Remember the cat, but there are many other applications, we will focus on those as well. We will look at the simple RNN also known as the Elman network, and learn how to train the network. We will also understand the limitations of simple RNNs, and how they can be overcome by using what we call LSTMs. Don't be alarmed, you don't need to remember all these names right now. We will slowly progress into each concept and talk about all of them in much detail later.
 
-### 3. [RNN's History](<iframe width="770" height="432" src="https://www.youtube.com/embed/HbxAnYUfRnc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)
+### 3. [RNN's History](https://www.youtube.com/embed/HbxAnYUfRnc)
