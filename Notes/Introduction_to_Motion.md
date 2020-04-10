@@ -13,3 +13,5 @@ Localization techniques are used extensively in computer graphics applications t
 We'll start off by talking about representing motion and tracking objects in a video. Then, we'll move onto uncertainty and robotic motion and learn a simple localization technique, the histogram filter, which can account for this uncertainty. Then, you'll learn about motion models and tracking the position of a self-driving car over time.
 
 By the end of this lesson, you'll have all the skills you need to code an implementation of SLAM, which stands for Simultaneous Localization and Mapping. Slam is a technique that allows autonomous vehicles to build up a model of the world while locating itself within that world. So, let's get started.
+
+### 3. [Motion](https://youtu.be/A-QJf04LBb0)
