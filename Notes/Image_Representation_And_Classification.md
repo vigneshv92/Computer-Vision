@@ -47,7 +47,7 @@ The example we gave earlier was sorting images of facial expressions into two ca
 ### Separating Data
 Say you want to separate two types of image data: images of bikes and of cars. You look at the color of each image and the apparent size of the vehicle in it and plot the data on a graph. Given the following points (pink dots are bikes and blue are cars), how would you choose to separate this data?
 
--- 
+<img src="/Visual Representations/CV_Pipeline_006.png" align="center"/></p> 
 
 Pink (bike) and blue (car) dots on a similar size-color graph. This time, the blue dots are collected in the top right quadrant of the graph, indicating that cars come in a more limited color palette.
 Close
