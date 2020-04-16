@@ -30,7 +30,7 @@ A training flow is pictured below. This is a convolutional neural network that l
 
 This is a very high-level view of training a neural network, and we'll be diving more into how this works later on in this course. For now, we are explaining this so that you'll be able to jump into coding a computer vision application soon.
 
--- 
+<img src="/Visual Representations/CV_Pipeline_005.png" align="center"/></p>
 
 Example of a convolutional neural network being trained to distinguish between images of a smile and a smirk.
 
