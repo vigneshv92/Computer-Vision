@@ -60,7 +60,7 @@ What if the data looked like this?
 
 Pink (bike) and blue (car) dots on a similar size-color graph. This time, the blue dots are collected in the top right quadrant of the graph, indicating that cars come in a more limited color palette.
 
---
+<img src="/Visual Representations/CV_Pipeline_008.png" align="center"/></p>
 
 Two, slightly-angled lines, each of which divides the data into two groups.
 Close
