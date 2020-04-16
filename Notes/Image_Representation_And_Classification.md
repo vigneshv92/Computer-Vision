@@ -39,9 +39,28 @@ Convolutional neural networks are a specific type of neural network that are com
 When we talk about machine learning and neural networks used in image classification and pattern recognition, we are really talking about a set of algorithms that can learn to recognize patterns in data and sort that data into groups.
 
 The example we gave earlier was sorting images of facial expressions into two categories: smile or smirk. A neural network might be able to learn to separate these expressions based on their different traits; a neural network can effectively learn how to draw a line that separates two kinds of data based on their unique shapes (the different shapes of the eyes and mouth, in the case of a smile and smirk). Deep neural networks are similar, only they can draw multiple and more complex separation lines in the sand. Deep neural networks layer separation layers on top of one another to separate complex data into groups.
-Separating Data
+
+### Separating Data
 Say you want to separate two types of image data: images of bikes and of cars. You look at the color of each image and the apparent size of the vehicle in it and plot the data on a graph. Given the following points (pink dots are bikes and blue are cars), how would you choose to separate this data?
 
-## Layers of Separation
+-- 
+
+Pink (bike) and blue (car) dots on a similar size-color graph. This time, the blue dots are collected in the top right quadrant of the graph, indicating that cars come in a more limited color palette.
+Close
+
+### Layers of Separation
 
 What if the data looked like this?
+
+--
+
+Pink (bike) and blue (car) dots on a similar size-color graph. This time, the blue dots are collected in the top right quadrant of the graph, indicating that cars come in a more limited color palette.
+
+--
+
+Two, slightly-angled lines, each of which divides the data into two groups.
+Close
+
+-- 
+
+Both lines, combined, clearly separate the car and bike data!
