@@ -47,7 +47,7 @@ This is a very high-level view of training a neural network, and we'll be diving
 
 <div align="center"><b>Example of a convolutional neural network being trained to distinguish between images of a smile and a smirk</b></div>
 
-Gradient descent is a a mathematical way to minimize error in a neural network. More information on this minimization method can be found [here](https://en.wikipedia.org/wiki/Gradient_descent).
+</br> Gradient descent is a a mathematical way to minimize error in a neural network. More information on this minimization method can be found [here](https://en.wikipedia.org/wiki/Gradient_descent).
 
 Convolutional neural networks are a specific type of neural network that are commonly used in computer vision applications. They learn to recognize patterns among a given set of images. If you want to [learn more](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/), refer to this resource, and we'll be learning more about these types of networks, and how they work step-by-step, at a different point in this course!
 
