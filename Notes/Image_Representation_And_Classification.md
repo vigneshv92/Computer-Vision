@@ -35,8 +35,6 @@ The algorithm counts up the number of red pixels in a given image and if there a
 
 <img src="/Visual Representations/CV_Pipeline_004.png" align="center"/></p>
 
-<div align="center"><b>Example of a convolutional neural network being trained to distinguish between images of a smile and a smirk</b></div>
-
 ## Training a Neural Network
 
 To train a computer vision neural network, we typically provide sets of labelled images, which we can compare to the predicted output label or recognition measurements. The neural network then monitors any errors it makes (by comparing the correct label to the output label) and corrects for them by modifying how it finds and prioritizes patterns and differences among the image data. Eventually, given enough labelled data, the model should be able to characterize any new, unlabeled, image data it sees!
@@ -47,7 +45,7 @@ This is a very high-level view of training a neural network, and we'll be diving
 
 <img src="/Visual Representations/CV_Pipeline_005.png" align="center"/></p>
 
-Example of a convolutional neural network being trained to distinguish between images of a smile and a smirk.
+<div align="center"><b>Example of a convolutional neural network being trained to distinguish between images of a smile and a smirk</b></div>
 
 Gradient descent is a a mathematical way to minimize error in a neural network. More information on this minimization method can be found [here](https://en.wikipedia.org/wiki/Gradient_descent).
 
@@ -62,7 +60,9 @@ The example we gave earlier was sorting images of facial expressions into two ca
 ### Separating Data
 Say you want to separate two types of image data: images of bikes and of cars. You look at the color of each image and the apparent size of the vehicle in it and plot the data on a graph. Given the following points (pink dots are bikes and blue are cars), how would you choose to separate this data?
 
-<img src="/Visual Representations/CV_Pipeline_006.png" align="center"/></p> 
+<img src="/Visual Representations/CV_Pipeline_006.png" align="center"/></p>
+
+<div align="center"><b>Pink and blue dots representing the size and color of bikes (pink) and cars (blue). The size is on the x-axis and the color on the left axis. Cars tend to be larger than bikes, but both come in a variety of colors.</b></div>
 
 Pink (bike) and blue (car) dots on a similar size-color graph. This time, the blue dots are collected in the top right quadrant of the graph, indicating that cars come in a more limited color palette.
 Close
