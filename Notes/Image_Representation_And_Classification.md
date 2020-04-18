@@ -35,6 +35,8 @@ The algorithm counts up the number of red pixels in a given image and if there a
 
 <img src="/Visual Representations/CV_Pipeline_004.png" align="center"/></p>
 
+<div align="center"><b>Example of a convolutional neural network being trained to distinguish between images of a smile and a smirk</b></div>
+
 ## Training a Neural Network
 
 To train a computer vision neural network, we typically provide sets of labelled images, which we can compare to the predicted output label or recognition measurements. The neural network then monitors any errors it makes (by comparing the correct label to the output label) and corrects for them by modifying how it finds and prioritizes patterns and differences among the image data. Eventually, given enough labelled data, the model should be able to characterize any new, unlabeled, image data it sees!
