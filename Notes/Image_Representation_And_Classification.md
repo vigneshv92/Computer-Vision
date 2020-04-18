@@ -19,7 +19,6 @@ A computer vision pipeline is a series of steps that most computer vision applic
 
 <div align="center"><b>Facial recognition pipeline</b></div>
 
-
 ## Standardizing Data
 
 Pre-processing images is all about standardizing input images so that you can move further along the pipeline and analyze images in the same way. In machine learning tasks, the pre-processing step is often one of the most important.
@@ -27,6 +26,8 @@ Pre-processing images is all about standardizing input images so that you can mo
 For example, imagine that you've created a simple algorithm to distinguish between stop signs and other traffic lights.
 
 <img src="/Visual Representations/CV_Pipeline_003.png" align="center"/></p>
+
+<div align="center"><b> Images of traffic signs; a stop sign is on top and a hiking sign is on the bottom </b></div>
 
 If the images are different sizes, or even cropped differently, then this counting tactic will likely fail! So, it's important to pre-process these images so that they are standardized before they move along the pipeline. In the example below, you can see that the images are pre-processed into a standard square size.
 
