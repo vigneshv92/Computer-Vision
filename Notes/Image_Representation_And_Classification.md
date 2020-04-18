@@ -76,9 +76,13 @@ Pink (bike) and blue (car) dots on a similar size-color graph. This time, the bl
 
 <div align="center"><b>Two, slightly-angled lines, each of which divides the data into two groups.</b></div>
 
+</br>
+
 <img src="/Visual Representations/CV_Pipeline_009.png" align="center"/></p>
 
-Both lines, combined, clearly separate the car and bike data!
+<div align="center"><b>Both lines, combined, clearly separate the car and bike data!</b></div>
+
+</br>
 
 ### Images as Numerical Data
 
