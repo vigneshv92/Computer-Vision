@@ -11,7 +11,7 @@ A computer vision pipeline is a series of steps that most computer vision applic
 
 <img src="/Visual Representations/CV_Pipeline_001.png" align="center"/></p>
 
-<div align="center"> General computer vision processing pipeline </div>
+<div align="center"><b>General computer vision processing pipeline</b></div>
 
 </br> Now, let's take a look at a specific example of a pipeline applied to facial expression recognition.
 
