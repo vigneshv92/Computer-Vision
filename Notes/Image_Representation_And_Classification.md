@@ -17,6 +17,8 @@ Now, let's take a look at a specific example of a pipeline applied to facial exp
 
 <img src="/Visual Representations/CV_Pipeline_002.png" align="center"/></p>
 
+<div align="center"> Facial recognition pipeline </div>
+
 ## Standardizing Data
 
 Pre-processing images is all about standardizing input images so that you can move further along the pipeline and analyze images in the same way. In machine learning tasks, the pre-processing step is often one of the most important.
