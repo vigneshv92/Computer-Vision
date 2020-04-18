@@ -75,7 +75,6 @@ Pink (bike) and blue (car) dots on a similar size-color graph. This time, the bl
 <img src="/Visual Representations/CV_Pipeline_008.png" align="center"/></p>
 
 Two, slightly-angled lines, each of which divides the data into two groups.
-Close
 
 <img src="/Visual Representations/CV_Pipeline_009.png" align="center"/></p>
 
