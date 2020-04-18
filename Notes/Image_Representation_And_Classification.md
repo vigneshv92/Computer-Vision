@@ -70,7 +70,7 @@ What if the data looked like this?
 
 <img src="/Visual Representations/CV_Pipeline_007.png" align="center"/></p>
 
-Pink (bike) and blue (car) dots on a similar size-color graph. This time, the blue dots are collected in the top right quadrant of the graph, indicating that cars come in a more limited color palette.
+<div align="center"><b>Pink (bike) and blue (car) dots on a similar size-color graph. This time, the blue dots are collected in the top right quadrant of the graph, indicating that cars come in a more limited color palette.</b></div>
 
 <img src="/Visual Representations/CV_Pipeline_008.png" align="center"/></p>
 
@@ -81,8 +81,6 @@ Pink (bike) and blue (car) dots on a similar size-color graph. This time, the bl
 <img src="/Visual Representations/CV_Pipeline_009.png" align="center"/></p>
 
 <div align="center"><b>Both lines, combined, clearly separate the car and bike data!</b></div>
-
-</br>
 
 ### Images as Numerical Data
 
