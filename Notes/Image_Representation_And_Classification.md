@@ -64,9 +64,6 @@ Say you want to separate two types of image data: images of bikes and of cars. Y
 
 <div align="center"><b>Pink and blue dots representing the size and color of bikes (pink) and cars (blue). The size is on the x-axis and the color on the left axis. Cars tend to be larger than bikes, but both come in a variety of colors.</b></div>
 
-Pink (bike) and blue (car) dots on a similar size-color graph. This time, the blue dots are collected in the top right quadrant of the graph, indicating that cars come in a more limited color palette.
-Close
-
 ### Layers of Separation
 
 What if the data looked like this?
