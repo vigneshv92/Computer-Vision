@@ -20,9 +20,8 @@ So we've seen how to detect a blue screen background. But this detection assumed
 What would happen if the lighting changed and part of the wall was in shadow or washed out and bright? The simple blue color threshold wouldn't work very well in this scenario. 
 
 <b> So how can we consistently detect objects under varying light conditions? </b>
-> Well, there are many other ways to represent the colors in an image besides just composed of red, green, and blue values. These different color representations are often called "color spaces". RGB is red, green, blue color space. You can think of this as a 3D space where any color can be represented by a 3D coordinate of R, G, and B values. 
+> <img src="/Visual Representations/CV_Color_Spaces_And_Transform_001.png" align="center"/></p>Well, there are many other ways to represent the colors in an image besides just composed of red, green, and blue values. These different color representations are often called "color spaces". RGB is red, green, blue color space. You can think of this as a 3D space where any color can be represented by a 3D coordinate of R, G, and B values.
 
---
 
 For example, white is on the corner here with a value of 255 255 255 for red green and blue values. There's also HSV color space for hue, saturation, and value. And HLS for hue, lightness, and saturation. And these are some of the most commonly used color spaces in image processing. 
 
