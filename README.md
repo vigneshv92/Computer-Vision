@@ -3,6 +3,7 @@ This course is broken into three main sections:
 
 ## 1. [Introduction to Computer Vision](Notes/Intro_to_Computer_Vision.md)</br>
 
+ * [Computer Vision Pipeline](Notes/CV_Pipeline.md)
  * [Image Representation & Classification](Notes/Image_Representation_And_Classification.md)</br>
 
  This lesson covers topics like image processing, feature extraction done manually or through training a convolutional neural network (CNN) using PyTorch.
