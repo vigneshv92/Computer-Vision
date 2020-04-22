@@ -13,6 +13,7 @@ This course is broken into three main sections:
 
  * [Computer Vision and Deep Learning](Notes/Advanced_Computer_Vision_and_Deep_Learning.md)</br>
  * [Deep Learning Algorithms](Notes/Advanced_Computer_Vision_And_Deep_Learning_Algorithms.md)
+ * [Image Captioning]()
 
 This lesson is all about advances in deep learning architectures like region-based CNN's, YOLO and single-shot detection algorithms, and CNN's used in combination with recurrent neural networks.
 
