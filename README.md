@@ -21,7 +21,8 @@ This lesson is all about advances in deep learning architectures like region-bas
 ## 3. Object Tracking and Localization </br>
   * [Introduction to Motion](Notes/Introduction_to_Motion.md)
   * [Object Tracking](Notes/Object_Tracking.md)
-
+  * [Localization](https://github.com/udacity/CVND_Localization_Exercises)
+  
 This lesson covers how a robot can move and sense the world around it, creating a visual representation of the world as it navigates.
 
 Each of these three sections will have an associated project that allows you to demonstrate the skills you've learned in each part.
