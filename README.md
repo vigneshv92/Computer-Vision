@@ -6,9 +6,9 @@ This course is broken into three main sections:
  * [Computer Vision Pipeline](Notes/CV_Pipeline.md)
  * [Image Representation & Classification](Notes/Image_Representation_And_Classification.md)</br>
  * [Facial Keypoint Detection]()
- 
  * [Notebooks](https://github.com/udacity/CVND_Exercises)
- This lesson covers topics like image processing, feature extraction done manually or through training a convolutional neural network (CNN) using PyTorch.
+ 
+This lesson covers topics like image processing, feature extraction done manually or through training a convolutional neural network (CNN) using PyTorch.
 
 ## 2. Advanced Computer Vision and Deep Learning </br>
 
