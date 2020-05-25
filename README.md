@@ -44,4 +44,4 @@ The three project in this course are as follows:
 
 * [Building Scalable Systems to Understand Content](https://engineering.fb.com/ml-applications/building-scalable-systems-to-understand-content/)
 * [Toward a deeper understanding of the way AI agents see things](https://engineering.fb.com/ai-research/ai-agents-see/)
-* [](https://ai.facebook.com/blog/powered-by-ai-advancing-product-understanding-and-building-new-shopping-experiences/)
+* [Powered by AI: Advancing product understanding and building new shopping experiences](https://ai.facebook.com/blog/powered-by-ai-advancing-product-understanding-and-building-new-shopping-experiences/)
