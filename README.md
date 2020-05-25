@@ -39,3 +39,5 @@ The three project in this course are as follows:
 * Simultaneous Localization and Mapping (SLAM).
 
 # [Additional Resources](/Additional_Resources.md)
+
+## Blogs
