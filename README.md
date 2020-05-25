@@ -43,4 +43,4 @@ The three project in this course are as follows:
 ## Blogs
 
 * [Building Scalable Systems to Understand Content](https://engineering.fb.com/ml-applications/building-scalable-systems-to-understand-content/)
-* [Toward a deeper understanding of the way AI agents see things]()
+* [Toward a deeper understanding of the way AI agents see things](https://engineering.fb.com/ai-research/ai-agents-see/)
