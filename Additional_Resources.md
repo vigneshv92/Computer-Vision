@@ -14,7 +14,7 @@ spmallick/learnopencv: Learn OpenCV : C++ and Python Examples
 
 https://github.com/hb-research/gan-pytorch
 
-https://github.com/luxonis/depthai-ml-training/tree/master/colab-notebooks
+[](https://github.com/luxonis/depthai-ml-training/tree/master/colab-notebooks)
 
 ## Learning Path
 
