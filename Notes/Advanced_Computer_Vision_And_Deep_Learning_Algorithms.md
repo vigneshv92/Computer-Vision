@@ -1,4 +1,4 @@
-## Compuer Vision Algorithms
+## Computer Vision Algorithms
 
 ### 1. YOLO
 
