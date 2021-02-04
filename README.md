@@ -40,6 +40,10 @@ The three project in this course are as follows:
 
 # [Additional Resources](/Additional_Resources.md)
 
+# Notebooks
+
+* [Computer Vision Experiments]()
+
 ## Blogs
 
 * [Building Scalable Systems to Understand Content](https://engineering.fb.com/ml-applications/building-scalable-systems-to-understand-content/)
