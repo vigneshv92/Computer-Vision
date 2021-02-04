@@ -40,7 +40,7 @@ The three project in this course are as follows:
 
 # [Additional Resources](/Additional_Resources.md)
 
-# Notebooks
+## Notebooks
 
 * [Computer Vision Experiments]()
 
