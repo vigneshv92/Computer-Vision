@@ -42,7 +42,7 @@ The three project in this course are as follows:
 
 ## Notebooks
 
-* [Computer Vision Experiments]()
+* [Computer Vision Experiments](https://github.com/luxonis/depthai-experiments)
 
 ## Blogs
 
